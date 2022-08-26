@@ -585,7 +585,7 @@ select:-webkit-autofill:focus {
   background-color: var(--white);
 }
 
-.social__links-link:hover .social__links-link-img{
+.social__links-link:hover .social__links-link-img {
   filter: brightness(0);
 }
 
@@ -593,24 +593,94 @@ select:-webkit-autofill:focus {
   margin-right: 20px;
 }
 
-.facebook{
+.facebook {
   width: 30px;
   height: 30px;
 }
 
-.instagram{
+.instagram {
   width: 28px;
   height: 28px;
 }
 
-.telegram{
+.telegram {
   width: 28px;
   height: 28px;
 }
 
-.youtube{
+.youtube {
   width: 28px;
   height: 22px;
+}
+
+/* ---------- NEWS BLOCK ---------- */
+
+.news-block:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+.news-block:last-child {
+  margin-bottom: 120px;
+}
+
+.news-block__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.content__wrapper:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.news-block__heading-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 24px;
+}
+
+.news-block .btn {
+  padding: 8px 13px;
+}
+
+.news-block__content-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 130%;
+  margin-bottom: 12px;
+}
+
+.news-block__content-text {
+  font-family: "HelveticaNeueCyr";
+  font-weight: 400;
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.news-block__content__data {
+  display: flex;
+  align-items: center;
+}
+
+.news-block__content__about-btn {
+  margin-right: 12px;
+}
+
+.news-block__content__date {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 120%;
+  font-style: normal;
+  font-family: "Graphik";
+  text-transform: uppercase;
+  font-family: 'Graphik';
+}
+
+.news-block__img {
+  width: 100%;
+  max-height: 200px;
 }
 
 /* ---------- RETINA ---------- BG */
