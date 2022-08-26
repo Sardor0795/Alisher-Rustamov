@@ -452,20 +452,20 @@ select:-webkit-autofill:focus {
 }
 
 .article__title {
-  font-weight: 700;
   font-size: 20px;
+  font-weight: 700;
   line-height: 24px;
-  text-transform: capitalize;
   margin-bottom: 7px;
+  text-transform: capitalize;
 }
 
 .article__text {
-  font-family: "HelveticaNeueCyr";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
+  font-weight: 400;
   line-height: 16px;
+  font-style: normal;
   margin-bottom: 10px;
+  font-family: "HelveticaNeueCyr";
 }
 
 .article__data {
@@ -478,26 +478,20 @@ select:-webkit-autofill:focus {
 }
 
 .article__date {
-  font-family: "Graphik";
-  font-style: normal;
-  font-weight: 500;
   font-size: 13px;
+  font-weight: 500;
   line-height: 120%;
+  font-style: normal;
+  font-family: "Graphik";
   text-transform: uppercase;
 }
 
-.article__side-bar {
-}
-
-.side-bar {
-}
-
 .side-bar__main-title {
-  font-family: "HelveticaNeueCyr";
-  font-weight: 700;
   font-size: 20px;
+  font-weight: 700;
   line-height: 24px;
   margin-bottom: 20px;
+  font-family: "HelveticaNeueCyr";
 }
 
 .side-bar__articles-list {
@@ -509,33 +503,28 @@ select:-webkit-autofill:focus {
 }
 
 .side-bar__article-title {
-  font-weight: 700;
   font-size: 16px;
+  font-weight: 700;
   line-height: 20px;
   margin-bottom: 10px;
 }
 
 .side-bar__article-date {
-  font-family: "HelveticaNeueCyr";
-  font-style: normal;
-  font-weight: 550;
   font-size: 13px;
+  font-weight: 550;
   line-height: 120%;
+  font-style: normal;
+  font-family: "HelveticaNeueCyr";
   text-transform: uppercase;
 }
 
-.side-bar__search {
-}
-.search {
-}
-
 .search__title {
-  font-family: "HelveticaNeueCyr";
-  font-weight: 700;
   font-size: 20px;
+  font-weight: 700;
   line-height: 24px;
   margin-bottom: 20px;
   margin-bottom: 22px;
+  font-family: "HelveticaNeueCyr";
 }
 
 .search__tag-list {
@@ -548,6 +537,80 @@ select:-webkit-autofill:focus {
 }
 .search .search__tag-btn {
   padding: 5px 10px;
+}
+
+/* ---------- SOCIAL ---------- */
+
+.social {
+  margin-bottom: 55px;
+}
+
+.social__youtube {
+  width: 100%;
+  height: 368px;
+}
+
+.social__links {
+  padding-top: 20px;
+}
+
+.social__links-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+  font-family: "HelveticaNeueCyr";
+}
+
+.social__links-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.social__links-link {
+  display: flex;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 14px 21px;
+  color: var(--white);
+  align-items: center;
+  background-color: var(--black);
+  font-family: "HelveticaNeueCyr";
+  border: 2px solid transparent;
+}
+
+.social__links-link:hover {
+  color: var(--black);
+  border-color: var(--black);
+  background-color: var(--white);
+}
+
+.social__links-link:hover .social__links-link-img{
+  filter: brightness(0);
+}
+
+.social__links-link-img {
+  margin-right: 20px;
+}
+
+.facebook{
+  width: 30px;
+  height: 30px;
+}
+
+.instagram{
+  width: 28px;
+  height: 28px;
+}
+
+.telegram{
+  width: 28px;
+  height: 28px;
+}
+
+.youtube{
+  width: 28px;
+  height: 22px;
 }
 
 /* ---------- RETINA ---------- BG */
