@@ -305,8 +305,26 @@ select:-webkit-autofill:focus {
   font-family: "HelveticaNeueCyr";
 }
 
+.js-lang-closer {
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: transparent;
+  display: none;
+}
+
+.js-lang-closer.open {
+  display: block;
+}
+
 .lang__selacted {
   font-size: 16px;
+  z-index: 10;
+  position: relative;
 }
 
 .lang__selacted::after {
