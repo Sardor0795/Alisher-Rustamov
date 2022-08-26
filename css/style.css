@@ -608,7 +608,7 @@ button {
   justify-content: space-between;
 }
 
-.content__wrapper:not(:last-child) {
+.news-block__content__wrapper:not(:last-child) {
   margin-bottom: 40px;
 }
 
