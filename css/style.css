@@ -356,8 +356,6 @@ select:-webkit-autofill:focus {
   padding: 10px 20px;
   background-color: var(--white);
   box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
-  animation-name: up;
-  animation-duration: 0.5s;
 }
 
 .lang__box::before {
@@ -384,17 +382,6 @@ select:-webkit-autofill:focus {
 
 .lang__en {
   margin: 5px 0;
-}
-
-@keyframes up {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 100%;
-    transform: translateY(0);
-  }
 }
 
 /* ---------- RETINA ---------- BG */
