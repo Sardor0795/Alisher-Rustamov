@@ -1,7 +1,7 @@
 /* ---------- CUSTOM PROPERTIES ---------- */
 
 :root {
-  --white: #fff
+  --white: #fff;
   --black: #000;
   --main-color: #ffc017;
 }
@@ -224,7 +224,7 @@ select:-webkit-autofill:focus {
   text-align: center;
   color: var(--white);
   background-color: var(--black);
-  font-family: 'HelveticaNeueCyr';
+  font-family: "HelveticaNeueCyr";
 }
 
 /* ---------- MAIN CONTENT ---------- */
@@ -235,7 +235,79 @@ select:-webkit-autofill:focus {
 
 /* ---------- HEADER ---------- */
 
+.header {
+  padding: 24px 0;
+  background-color: var(--main-color);
+}
 
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo-link {
+  display: flex;
+  margin-right: 40px;
+}
+
+.logo {
+}
+
+.logo__img {
+  width: 134px;
+  height: 24px;
+}
+
+.header__nav {
+  margin-right: auto;
+}
+
+.nav {
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.nav__link {
+  font-size: 16px;
+  font-weight: 550;
+  line-height: 24px;
+  color: var(--black);
+  font-family: "HelveticaNeueCyr";
+}
+
+.header__lang-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header__lang {
+  display: flex;
+  font-size: 16px;
+  font-weight: 550;
+  line-height: 24px;
+  margin-right: 26px;
+  color: var(--black);
+  align-items: center;
+  font-family: "HelveticaNeueCyr";
+}
+
+.header__lang::after {
+  content: "";
+  width: 9px;
+  height: 9px;
+  margin-left: 7px;
+  display: inline-block;
+  border-right: 3px solid var(--black);
+  border-bottom: 3px solid var(--black);
+  transform: translateY(-2px) rotate(45deg);
+}
 
 /* ---------- RETINA ---------- BG */
 
