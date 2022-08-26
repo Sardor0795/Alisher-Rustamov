@@ -290,16 +290,26 @@ select:-webkit-autofill:focus {
   font-family: "HelveticaNeueCyr";
 }
 
-.header__lang {
-  font-size: 16px;
+/* ----- LANGUAGE DROPDOWN ----- */
+
+.header__lang-wrapper {
+  margin-right: 26px;
+}
+
+.lang {
+  position: relative;
+  font-size: 14px;
   font-weight: 550;
   line-height: 24px;
-  margin-right: 26px;
   color: var(--black);
   font-family: "HelveticaNeueCyr";
 }
 
-.header__lang::after {
+.lang__selacted {
+  font-size: 16px;
+}
+
+.lang__selacted::after {
   content: "";
   width: 9px;
   height: 9px;
@@ -309,6 +319,41 @@ select:-webkit-autofill:focus {
   border-right: 3px solid var(--black);
   border-bottom: 3px solid var(--black);
   transform: translateY(-2px) rotate(45deg);
+}
+
+.lang__box {
+  position: absolute;
+  left: -19px;
+  width: 108px;
+  text-align: center;
+  top: 180%;
+  z-index: 10;
+  line-height: normal;
+  padding: 10px 20px;
+  background-color: var(--white);
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+
+.lang__box::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  width: 20px;
+  z-index: -1;
+  height: 20px;
+  background-color: #fff;
+  border-top-left-radius: 100%;
+  transform: rotate(225deg) translateX(50%);
+}
+
+.lang__uz {
+  margin: 5px 0;
+}
+
+.lang__en {
+  margin: 5px 0;
 }
 
 /* ---------- RETINA ---------- BG */
