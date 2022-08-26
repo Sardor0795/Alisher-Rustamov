@@ -1,6 +1,7 @@
 /* ---------- CUSTOM PROPERTIES ---------- */
 
 :root {
+  --white: #fff
   --black: #000;
   --main-color: #ffc017;
 }
@@ -212,6 +213,18 @@ select:-webkit-autofill:focus {
   overflow: hidden;
   position: absolute;
   clip: rect(0 0 0 0);
+}
+
+/* ---------- BTN ---------- */
+
+.btn {
+  font-size: 14px;
+  font-weight: 550;
+  padding: 12px 14px;
+  text-align: center;
+  color: var(--white);
+  background-color: var(--black);
+  font-family: 'HelveticaNeueCyr';
 }
 
 /* ---------- MAIN CONTENT ---------- */
