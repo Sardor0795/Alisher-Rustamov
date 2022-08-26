@@ -1,96 +1,97 @@
 /* CUSTOM PROPERTIES */
 
 :root {
-  --main-color: #3f3f3f;
+  --main-color: #ffc017;
+  --black: #000;
 }
 
 /* FONTS */
 
 @font-face {
-  font-family: 'Graphik';
-  src: url('../fonts/Graphik-Medium.woff2') format('woff2'),
-      url('../fonts/Graphik-Medium.woff') format('woff');
+  font-family: "Graphik";
+  src: url("../fonts/Graphik-Medium.woff2") format("woff2"),
+    url("../fonts/Graphik-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'HelveticaNeueCyr';
-  src: url('../fonts/HelveticaNeueCyr-Roman.woff2') format('woff2'),
-      url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff');
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'HelveticaNeueCyr';
-  src: url('../fonts/HelveticaNeueCyr-Medium.woff2') format('woff2'),
-      url('../fonts/HelveticaNeueCyr-Medium.woff') format('woff');
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr-Medium.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter-Regular.woff2') format('woff2'),
-      url('../fonts/Inter-Regular.woff') format('woff');
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.woff2") format("woff2"),
+    url("../fonts/Inter-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Georgia';
-  src: url('../fonts/Georgia.woff2') format('woff2'),
-      url('../fonts/Georgia.woff') format('woff');
+  font-family: "Georgia";
+  src: url("../fonts/Georgia.woff2") format("woff2"),
+    url("../fonts/Georgia.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'HelveticaNeueCyr';
-  src: url('../fonts/HelveticaNeueCyr-Light.woff2') format('woff2'),
-      url('../fonts/HelveticaNeueCyr-Light.woff') format('woff');
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr-Light.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter-SemiBold.woff2') format('woff2'),
-      url('../fonts/Inter-SemiBold.woff') format('woff');
+  font-family: "Inter";
+  src: url("../fonts/Inter-SemiBold.woff2") format("woff2"),
+    url("../fonts/Inter-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter-Medium.woff2') format('woff2'),
-      url('../fonts/Inter-Medium.woff') format('woff');
+  font-family: "Inter";
+  src: url("../fonts/Inter-Medium.woff2") format("woff2"),
+    url("../fonts/Inter-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Georgia';
-  src: url('../fonts/Georgia-Bold.woff2') format('woff2'),
-      url('../fonts/Georgia-Bold.woff') format('woff');
+  font-family: "Georgia";
+  src: url("../fonts/Georgia-Bold.woff2") format("woff2"),
+    url("../fonts/Georgia-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'HelveticaNeueCyr';
-  src: url('../fonts/HelveticaNeueCyr-Bold.woff2') format('woff2'),
-      url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff');
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr-Bold.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -120,12 +121,10 @@ body {
   flex-direction: column;
   height: 100%;
   background-color: #fff;
-  color: #222;
-  font-family: "Arial", sans-serif;
+  color: var(--black);
+  font-family: "Georgia", "Arial", sans-serif;
   padding: 0;
   margin: 0;
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 a {
