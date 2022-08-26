@@ -660,7 +660,7 @@ button {
   max-height: 200px;
 }
 
-/* CONTACT */
+/* ---------- CONTACT ---------- */
 
 .contact {
   padding: 60px 0;
@@ -697,7 +697,7 @@ button {
   font-family: "Inter";
 }
 
-/* AUTOFILL STYLES */
+/* ---------- AUTOFILL STYLES ---------- */
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -725,7 +725,7 @@ select:-webkit-autofill:focus {
   transform: translateY(2px);
 }
 
-/* FOOTER */
+/* ---------- FOOTER ---------- */
 
 .footer {
   padding: 41px 0;
