@@ -5,6 +5,7 @@
   --black: #000;
   --main-color: #ffc017;
   --about-btn-bg: #d9d9d9;
+  --contact-bg: #ececec;
 }
 
 /* ---------- FONTS ---------- */
@@ -188,30 +189,6 @@ button {
   padding-left: 20px;
   padding-right: 20px;
 }
-
-/* PLACEHOLDER STYLE */
-
-/* ::-webkit-input-placeholder,
-::-moz-placeholder,
-:-ms-input-placeholder,
-:-moz-placeholder {
-  color: var(--grey);
-} */
-
-/* AUTOFILL STYLES */
-
-/* input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-textarea:-webkit-autofill,
-textarea:-webkit-autofill:hover,
-textarea:-webkit-autofill:focus,
-select:-webkit-autofill,
-select:-webkit-autofill:hover,
-select:-webkit-autofill:focus {
-  -webkit-text-fill-color: var(--black);
-  -webkit-box-shadow: 0 0 0px 1000px rgb(255, 255, 255) inset;
-} */
 
 /* ---------- ELEMENT HIDER ---------- */
 
@@ -675,7 +652,7 @@ select:-webkit-autofill:focus {
   font-style: normal;
   font-family: "Graphik";
   text-transform: uppercase;
-  font-family: 'Graphik';
+  font-family: "Graphik";
 }
 
 .news-block__img {
@@ -683,12 +660,67 @@ select:-webkit-autofill:focus {
   max-height: 200px;
 }
 
-/* ---------- RETINA ---------- BG */
+/* CONTACT */
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (min--moz-device-pixel-ratio: 2),
-  only screen and (-o-min-device-pixel-ratio: 2/1),
-  only screen and (min-device-pixel-ratio: 2),
-  only screen and (min-resolution: 192dpi),
-  only screen and (min-resolution: 2dppx) {
+.contact {
+  padding: 60px 0;
+  background-color: var(--contact-bg);
+}
+
+.contact__title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 130%;
+  margin-bottom: 10px;
+}
+
+.contact__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 32px;
+}
+
+.contact__form {
+  display: flex;
+  align-items: center;
+}
+
+.contact__input {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 13px 20px;
+  min-width: 264px;
+}
+
+/* AUTOFILL STYLES */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  box-shadow: 0 0 0px 1000px rgb(255, 255, 255) inset;
+}
+
+.contact__submit {
+  padding: 15px 33px;
+  background-color: var(--black);
+  color: var(--white);
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.contact__submit:active {
+  transform: translateY(2px);
 }
