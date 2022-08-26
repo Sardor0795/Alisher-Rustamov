@@ -124,7 +124,7 @@ body {
   display: flex;
   color: var(--black);
   flex-direction: column;
-  background-color: #fff;
+  background-color: var(--white);
   font-family: "Georgia", "Arial", sans-serif;
 }
 
@@ -297,24 +297,23 @@ select:-webkit-autofill:focus {
 }
 
 .lang {
-  position: relative;
   font-size: 14px;
   font-weight: 550;
   line-height: 24px;
-  color: var(--black);
+  position: relative;
   font-family: "HelveticaNeueCyr";
 }
 
 .js-lang-closer {
   content: "";
-  left: 0;
   top: 0;
+  left: 0;
+  z-index: 1;
   width: 100%;
   height: 100%;
-  position: fixed;
-  z-index: 1;
-  background-color: transparent;
   display: none;
+  position: fixed;
+  background-color: transparent;
 }
 
 .js-lang-closer.open {
@@ -322,9 +321,10 @@ select:-webkit-autofill:focus {
 }
 
 .lang__selacted {
-  font-size: 16px;
   z-index: 10;
+  font-size: 16px;
   position: relative;
+  color: var(--black);
 }
 
 .lang__selacted::after {
@@ -334,10 +334,10 @@ select:-webkit-autofill:focus {
   margin-left: 7px;
   margin-right: 1px;
   display: inline-block;
+  transition: transform 0.3s ease;
   border-right: 3px solid var(--black);
   border-bottom: 3px solid var(--black);
   transform: translateY(-2px) rotate(45deg);
-  transition: transform 0.3s ease;
 }
 
 .lang__selacted.open::after {
@@ -345,30 +345,30 @@ select:-webkit-autofill:focus {
 }
 
 .lang__box {
-  position: absolute;
-  display: none;
-  left: -19px;
-  width: 108px;
-  text-align: center;
   top: 180%;
+  left: -19px;
   z-index: 10;
-  line-height: normal;
+  width: 108px;
+  display: none;
+  text-align: center;
   padding: 10px 20px;
+  position: absolute;
+  line-height: normal;
   background-color: var(--white);
   box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
 }
 
 .lang__box::before {
   content: "";
-  display: inline-block;
-  position: absolute;
-  left: 50%;
   top: 0px;
+  left: 50%;
   width: 20px;
   z-index: -1;
   height: 20px;
-  background-color: #fff;
+  position: absolute;
+  display: inline-block;
   border-top-left-radius: 100%;
+  background-color: var(--white);
   transform: rotate(225deg) translateX(50%);
 }
 
@@ -378,10 +378,51 @@ select:-webkit-autofill:focus {
 
 .lang__uz {
   margin: 5px 0;
+  color: var(--black);
 }
 
 .lang__en {
   margin: 5px 0;
+  color: var(--black);
+}
+
+/* ---------- HERO ---------- */
+
+.hero {
+  min-height: 678px;
+  background-repeat: no-repeat;
+  background-color: var(--main-color);
+  background-image: url("../img/hero-bg.png");
+  background-position: left calc(50% + 360px) bottom;
+}
+
+.hero__content {
+  width: 50%;
+  padding-top: 123px;
+}
+
+.hero__text {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 10px;
+  font-family: "HelveticaNeueCyr";
+}
+
+.hero__title {
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 90px;
+  margin-bottom: 31px;
+  text-transform: uppercase;
+}
+
+.hero .btn {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 18px 50px;
+  --main-color: var(--black);
 }
 
 /* ---------- RETINA ---------- BG */
