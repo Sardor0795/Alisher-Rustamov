@@ -1,11 +1,11 @@
-/* CUSTOM PROPERTIES */
+/* ---------- CUSTOM PROPERTIES ---------- */
 
 :root {
-  --main-color: #ffc017;
   --black: #000;
+  --main-color: #ffc017;
 }
 
-/* FONTS */
+/* ---------- FONTS ---------- */
 
 @font-face {
   font-family: "Graphik";
@@ -97,11 +97,11 @@
   font-display: swap;
 }
 
-/* GLOBAL */
+/* ---------- GLOBAL ---------- */
 
 html {
-  box-sizing: border-box;
   height: 100%;
+  box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
@@ -112,19 +112,19 @@ html {
 }
 
 *:focus {
-  outline: 2px dashed var(--main-color);
   outline-offset: 3px;
+  outline: 2px dashed var(--main-color);
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  background-color: #fff;
-  color: var(--black);
-  font-family: "Georgia", "Arial", sans-serif;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  color: var(--black);
+  flex-direction: column;
+  background-color: #fff;
+  font-family: "Georgia", "Arial", sans-serif;
 }
 
 a {
@@ -161,20 +161,20 @@ button {
 
 button {
   border: none;
-  background: none;
   cursor: pointer;
+  background: none;
   text-align: center;
 }
 
-/* CONTAINER */
+/* ---------- CONTAINER ---------- */
 
 .container {
   width: 100%;
+  margin-left: auto;
   max-width: 1200px;
+  margin-right: auto;
   padding-left: 50px;
   padding-right: 50px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* PLACEHOLDER STYLE */
@@ -201,26 +201,30 @@ select:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0px 1000px rgb(255, 255, 255) inset;
 } */
 
-/* ELEMENT HIDER */
+/* ---------- ELEMENT HIDER ---------- */
 
 .visually-hidden {
-  position: absolute;
+  border: 0;
+  padding: 0;
   width: 1px;
   height: 1px;
   margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
   overflow: hidden;
+  position: absolute;
+  clip: rect(0 0 0 0);
 }
 
-/* MAIN CONTENT */
+/* ---------- MAIN CONTENT ---------- */
 
 .main-content {
   flex-grow: 1;
 }
 
-/* RETINA BG */
+/* ---------- HEADER ---------- */
+
+
+
+/* ---------- RETINA ---------- BG */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
   only screen and (min--moz-device-pixel-ratio: 2),
