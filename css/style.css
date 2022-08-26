@@ -130,6 +130,16 @@ body {
 
 a {
   text-decoration: none;
+  transition: color 0.3s ease, opacity 0.3s ease, background-color 0.3s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+a:active {
+  opacity: 0.6;
+  transform: translateY(2px);
 }
 
 ul {
@@ -240,6 +250,10 @@ select:-webkit-autofill:focus {
   background-color: var(--main-color);
 }
 
+.header a {
+  outline-color: #000;
+}
+
 .header__container {
   display: flex;
   align-items: center;
@@ -250,9 +264,6 @@ select:-webkit-autofill:focus {
   margin-right: 40px;
 }
 
-.logo {
-}
-
 .logo__img {
   width: 134px;
   height: 24px;
@@ -260,9 +271,6 @@ select:-webkit-autofill:focus {
 
 .header__nav {
   margin-right: auto;
-}
-
-.nav {
 }
 
 .nav__list {
@@ -308,6 +316,12 @@ select:-webkit-autofill:focus {
   border-bottom: 3px solid var(--black);
   transform: translateY(-2px) rotate(45deg);
 }
+
+/* Custom dropdown */
+
+
+
+/* Custom dropdown */
 
 /* ---------- RETINA ---------- BG */
 
