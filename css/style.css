@@ -276,6 +276,10 @@ button {
   margin-right: 20px;
 }
 
+.nav__item:first-child {
+  display: none;
+}
+
 .nav__link {
   font-size: 16px;
   font-weight: 550;
@@ -392,12 +396,13 @@ button {
 }
 
 .hero__content {
-  width: 50%;
+  max-width: 571px;
   padding-top: 123px;
 }
 
 .hero__text {
   font-size: 24px;
+  max-width: 458px;
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 10px;
