@@ -106,6 +106,7 @@ html {
   height: 100%;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  padding-top: 88px;
 }
 
 *,
@@ -237,6 +238,10 @@ button {
 .header {
   padding: 24px 0;
   background-color: var(--main-color);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
 }
 
 .header a {

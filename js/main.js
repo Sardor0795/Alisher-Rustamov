@@ -4,7 +4,8 @@ const elLangCloser = document.querySelector(".js-lang-closer");
 const elLangUz = document.querySelector(".js-lang-uz");
 const elLangEn = document.querySelector(".js-lang-en");
 
-elLangSelected.addEventListener("click", function () {
+elLangSelected.addEventListener("click", function (e) {
+  e.preventDefault()
   toggle();
 });
 
@@ -12,12 +13,14 @@ elLangCloser.addEventListener("click", function () {
   remove();
 });
 
-elLangEn.addEventListener("click", function () {
+elLangEn.addEventListener("click", function (e) {
+  e.preventDefault()
   elLangSelected.textContent = "English";
   remove();
 });
 
-elLangUz.addEventListener("click", function () {
+elLangUz.addEventListener("click", function (e) {
+  e.preventDefault()
   elLangSelected.textContent = "O‘zbek";
   remove();
 });
