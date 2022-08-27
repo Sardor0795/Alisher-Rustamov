@@ -6,6 +6,9 @@
   .hero__content {
     padding-top: 80px;
   }
+  .search__tag-item:not(:last-child) {
+    margin-right: 5px;
+  }
 }
 
 @media (max-width: 850px) {
@@ -16,8 +19,30 @@
   .hero__title {
     font-size: 90px;
   }
+  .search .search__tag-btn {
+    padding: 5px 8px;
+  }
+  .side-bar__articles-list {
+    margin-bottom: 15px;
+  }
+  .side-bar__main-title {
+    margin-bottom: 15px;
+  }
+  .search__title {
+    margin-bottom: 15px;
+  }
+  .article {
+    padding-top: 40px;
+  }
+  .news-block__heading-title {
+    font-size: 45px;
+  }
+  .contact .col-6 {
+    width: 70%;
+    max-width: 70%;
+    flex-basis: 70%;
+  }
 }
-
 @media (max-width: 800px) {
   .hero {
     background-size: 630px 600px;
