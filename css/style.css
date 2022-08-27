@@ -603,32 +603,28 @@ button {
   background-color: var(--white);
 }
 
-.social__links-link:hover .social__links-link-img {
-  filter: brightness(0);
+.social__links-link:hover i {
+  /* filter: brightness(0); */
 }
 
-.social__links-link-img {
+.fa-facebook {
   margin-right: 20px;
+  color: #4867aa;
 }
 
-.facebook {
-  width: 30px;
-  height: 30px;
+.fa-instagram {
+  margin-right: 20px;
+  color: #f44d5b;
 }
 
-.instagram {
-  width: 28px;
-  height: 28px;
+.fa-telegram {
+  margin-right: 20px;
+  color: #3295dc;
 }
 
-.telegram {
-  width: 28px;
-  height: 28px;
-}
-
-.youtube {
-  width: 28px;
-  height: 22px;
+.fa-youtube {
+  margin-right: 20px;
+  color: #ff0000;
 }
 
 /* ---------- NEWS BLOCK ---------- */
