@@ -603,28 +603,24 @@ button {
   background-color: var(--white);
 }
 
-.social__links-link:hover i {
-  /* filter: brightness(0); */
-}
-
 .fa-facebook {
   margin-right: 20px;
-  color: #4867aa;
+  /* color: #4867aa; */
 }
 
 .fa-instagram {
   margin-right: 20px;
-  color: #f44d5b;
+  /* color: #f44d5b; */
 }
 
 .fa-telegram {
   margin-right: 20px;
-  color: #3295dc;
+  /* color: #3295dc; */
 }
 
 .fa-youtube {
   margin-right: 20px;
-  color: #ff0000;
+  /* color: #ff0000; */
 }
 
 /* ---------- NEWS BLOCK ---------- */
