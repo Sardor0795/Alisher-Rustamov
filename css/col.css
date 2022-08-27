@@ -56,6 +56,25 @@
     .col-md-12 { padding: 0 20px; width:100%; flex-basis: 100%; max-width: 100%;}
 }
 
+/* Pad */
+
+@media (max-width: 800px) {
+    .col-pad-1 { padding: 0 20px; width: 8.33333333%; flex-basis: 8.33333333%; max-width: 8.33333333%;}
+    .col-pad-2 { padding: 0 20px; width: 16.6666667%; flex-basis: 16.6666667%; max-width: 16.6666667%;}
+    .col-pad-3 { padding: 0 20px; width: 25%; flex-basis: 25%; max-width: 25%;}
+    .col-pad-4 { padding: 0 20px; width: 33.3333333%; flex-basis: 33.3333333%; max-width: 33.3333333%;}
+    .col-pad-5 { padding: 0 20px; width: 41.6666667%; flex-basis: 41.6666667%; max-width: 41.6666667%;}
+    .col-pad-6 { padding: 0 20px; width: 50%; flex-basis: 50%; max-width: 50%;}
+    .col-pad-7 { padding: 0 20px; width: 58.3333333%; flex-basis: 58.3333333%; max-width: 58.3333333%;}
+    .col-pad-8 { padding: 0 20px; width: 66.6666667%; flex-basis: 66.6666667%; max-width: 66.6666667%;}
+    .col-pad-9 { padding: 0 20px; width: 75%; flex-basis: 75%; max-width: 75%;}
+    .col-pad-10 { padding: 0 20px; width:83.3333333%; flex-basis: 83.3333333%; max-width: 83.3333333%;}
+    .col-pad-11 { padding: 0 20px; width:91.6666667%; flex-basis: 91.6666667%; max-width: 91.6666667%;}
+    .col-pad-12 { padding: 0 20px; width:100%; flex-basis: 100%; max-width: 100%;}
+}
+
+
+
 /* Small */
 
 @media (max-width: 600px) {

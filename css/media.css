@@ -173,7 +173,6 @@
 }
 
 @media (max-width: 720px) {
-  /* header */
   html {
     padding-top: 71px;
   }
@@ -227,6 +226,24 @@
   }
   .news-block:last-child {
     margin-bottom: 45px;
+  }
+  .article-page__title {
+    font-size: 44px;
+  }
+  .article-page {
+    padding: 40px 0;
+  }
+  .article-page__img {
+    height: 310px;
+  }
+  .article-page__title {
+    margin-bottom: 30px;
+  }
+  .article-page__img {
+    margin-bottom: 31px;
+  }
+  .useful-articles {
+    padding-bottom: 0;
   }
 }
 
