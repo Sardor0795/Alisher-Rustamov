@@ -28,19 +28,41 @@
   .side-bar__main-title {
     margin-bottom: 15px;
   }
+  .news-block__content-title {
+    font-size: 21px;
+  }
   .search__title {
     margin-bottom: 15px;
+  }
+  .news-block__content-text {
+    font-size: 16px;
   }
   .article {
     padding-top: 40px;
   }
   .news-block__heading-title {
-    font-size: 45px;
+    font-size: 40px;
+  }
+  .contact {
+    padding: 40px 0;
   }
   .contact .col-6 {
     width: 70%;
     max-width: 70%;
     flex-basis: 70%;
+  }
+  .social {
+    margin-bottom: 35px;
+  }
+  .news-block:last-child {
+    margin-bottom: 90px;
+  }
+  .news-block:not(:last-child) {
+    margin-bottom: 40px;
+  }
+  .news-block__heading {
+    display: flex;
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 800px) {
