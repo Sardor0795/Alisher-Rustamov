@@ -1,0 +1,9 @@
+@media (max-width: 720px) {
+  .header__btn {
+    display: none;
+  }
+  .header__nav {
+    margin-right: 20px;
+    margin-left: auto;
+  }
+}

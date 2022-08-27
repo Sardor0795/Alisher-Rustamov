@@ -292,6 +292,7 @@ button {
 
 .lang {
   font-size: 14px;
+  min-width: 72px;
   font-weight: 550;
   line-height: 24px;
   position: relative;
