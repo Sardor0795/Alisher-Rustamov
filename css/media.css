@@ -50,7 +50,7 @@
 @media (max-width: 720px) {
   /* header */
   html {
-    padding-top: 72px;
+    padding-top: 71px;
   }
   .header__btn {
     display: none;
