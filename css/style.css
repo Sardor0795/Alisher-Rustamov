@@ -432,6 +432,14 @@ button {
 
 .article__card {
   position: relative;
+  transition: color 0.3s ease, opacity 0.3s ease, background-color 0.3s ease;
+}
+
+.article__card:hover {
+  opacity: 0.8;
+}
+.article__card:active {
+  opacity: 0.6;
 }
 
 .article__img {
@@ -511,6 +519,10 @@ button {
   font-weight: 700;
   line-height: 20px;
   margin-bottom: 10px;
+}
+
+.side-bar__article-title-link {
+  color: var(--black);
 }
 
 .side-bar__article-date {
