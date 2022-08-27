@@ -533,8 +533,8 @@ button {
   font-weight: 550;
   line-height: 120%;
   font-style: normal;
-  font-family: "HelveticaNeueCyr";
   text-transform: uppercase;
+  font-family: "HelveticaNeueCyr";
 }
 
 /* ---------- SOCIAL ---------- */
@@ -573,9 +573,9 @@ button {
   padding: 14px 21px;
   color: var(--white);
   align-items: center;
+  border: 2px solid transparent;
   background-color: var(--black);
   font-family: "HelveticaNeueCyr";
-  border: 2px solid transparent;
 }
 
 .social__links-link:hover {
@@ -585,23 +585,23 @@ button {
 }
 
 .fa-facebook {
-  margin-right: 20px;
   font-size: 20px;
+  margin-right: 20px;
 }
 
 .fa-instagram {
-  margin-right: 20px;
   font-size: 20px;
+  margin-right: 20px;
 }
 
 .fa-telegram {
-  margin-right: 20px;
   font-size: 20px;
+  margin-right: 20px;
 }
 
 .fa-youtube {
-  margin-right: 20px;
   font-size: 20px;
+  margin-right: 20px;
 }
 
 /* ---------- NEWS BLOCK ---------- */
