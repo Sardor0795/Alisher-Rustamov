@@ -41,7 +41,7 @@
 
 /* Medium */
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .col-md-1 { padding: 0 20px; width: 8.33333333%; flex-basis: 8.33333333%; max-width: 8.33333333%;}
     .col-md-2 { padding: 0 20px; width: 16.6666667%; flex-basis: 16.6666667%; max-width: 16.6666667%;}
     .col-md-3 { padding: 0 20px; width: 25%; flex-basis: 25%; max-width: 25%;}

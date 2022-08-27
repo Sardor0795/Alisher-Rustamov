@@ -116,7 +116,8 @@ html {
 }
 
 *:focus {
-  outline: unset;
+  outline: 2px dashed var(--main-color);
+  outline-offset: 3px;
 }
 
 body {
@@ -534,28 +535,6 @@ button {
   text-transform: uppercase;
 }
 
-.search__title {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 24px;
-  margin-bottom: 20px;
-  margin-bottom: 22px;
-  font-family: "HelveticaNeueCyr";
-}
-
-.search__tag-list {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-.search__tag-item:not(:last-child) {
-  margin-right: 20px;
-}
-.search .search__tag-btn {
-  padding: 5px 10px;
-  margin-bottom: 5px;
-}
-
 /* ---------- SOCIAL ---------- */
 
 .social {
@@ -605,22 +584,22 @@ button {
 
 .fa-facebook {
   margin-right: 20px;
-  /* color: #4867aa; */
+  font-size: 20px;
 }
 
 .fa-instagram {
   margin-right: 20px;
-  /* color: #f44d5b; */
+  font-size: 20px;
 }
 
 .fa-telegram {
   margin-right: 20px;
-  /* color: #3295dc; */
+  font-size: 20px;
 }
 
 .fa-youtube {
   margin-right: 20px;
-  /* color: #ff0000; */
+  font-size: 20px;
 }
 
 /* ---------- NEWS BLOCK ---------- */
