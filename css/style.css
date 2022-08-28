@@ -668,6 +668,7 @@ button {
   line-height: 55px;
   text-transform: uppercase;
   margin-bottom: 10px;
+  max-width: 280px;
 }
 
 .contact__about-text {
@@ -676,6 +677,7 @@ button {
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
+  max-width: 436px;
 }
 
 .contact__title {
@@ -690,7 +692,7 @@ button {
   font-family: "HelveticaNeueCyr";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 28px;
   margin-bottom: 20px;
 }
@@ -706,13 +708,13 @@ button {
   font-weight: 500;
   line-height: 20px;
   padding: 15px 20px;
-  font-family: "Inter";
+  font-family: "HelveticaNeueCyr";
+  width: 100%;
 }
 
 .contact__input:focus {
   z-index: 5;
 }
-
 
 /* ---------- AUTOFILL STYLES ---------- */
 
