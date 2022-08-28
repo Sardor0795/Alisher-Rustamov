@@ -5,7 +5,7 @@
   --black: #000;
   --main-color: #ffc017;
   --about-btn-bg: #d9d9d9;
-  --contact-bg: #ececec;
+  --contact-bg: #222222;
 }
 
 /* ---------- FONTS ---------- */
@@ -658,37 +658,61 @@ button {
 .contact {
   padding: 60px 0;
   background-color: var(--contact-bg);
+  color: var(--white);
+}
+
+.contact__about-title {
+  font-family: "Georgia";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.contact__about-text {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
 }
 
 .contact__title {
-  font-size: 28px;
+  font-style: normal;
   font-weight: 700;
+  font-size: 28px;
   line-height: 130%;
   margin-bottom: 10px;
 }
 
 .contact__text {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 28px;
+  font-family: "HelveticaNeueCyr";
   font-style: normal;
-  margin-bottom: 32px;
-  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 20px;
 }
 
 .contact__form {
   display: flex;
   align-items: center;
+  max-width: 400px;
 }
 
 .contact__input {
   font-size: 14px;
-  min-width: 264px;
   font-weight: 500;
   line-height: 20px;
-  padding: 13px 20px;
+  padding: 15px 20px;
   font-family: "Inter";
 }
+
+.contact__input:focus {
+  z-index: 5;
+}
+
 
 /* ---------- AUTOFILL STYLES ---------- */
 
@@ -708,10 +732,10 @@ select:-webkit-autofill:focus {
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
-  padding: 15px 33px;
-  color: var(--white);
+  padding: 16px 35px;
+  color: var(--black);
   font-family: "Inter";
-  background-color: var(--black);
+  background-color: var(--main-color);
 }
 
 .contact__submit:active {
@@ -721,7 +745,9 @@ select:-webkit-autofill:focus {
 /* ---------- FOOTER ---------- */
 
 .footer {
-  padding: 41px 0;
+  padding-bottom: 60px;
+  background-color: var(--contact-bg);
+  color: var(--white);
 }
 
 .footer__copyright {
