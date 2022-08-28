@@ -91,6 +91,9 @@
   .footer {
     padding-bottom: 50px;
   }
+  .pt-60 {
+    padding-top: 50px;
+  }
 }
 @media (max-width: 800px) {
   .hero {
@@ -142,6 +145,9 @@
   }
   .footer {
     padding-bottom: 40px;
+  }
+  .pt-60 {
+    padding-top: 40px;
   }
   .contact__about-title {
     font-size: 35px;
