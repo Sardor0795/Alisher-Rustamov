@@ -1,4 +1,4 @@
-@media (max-width: 900px) {
+ @media (max-width: 900px) {
   .hero {
     background-size: 640px 610px;
     background-position: left calc(50% + 270px) bottom;
@@ -11,6 +11,9 @@
   }
   .contact__text {
     font-size: 15px;
+  }
+  .footer{
+    margin-top: -1px;
   }
 }
 
