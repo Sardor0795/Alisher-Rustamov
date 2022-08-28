@@ -131,6 +131,34 @@
   .social__links {
     padding-top: 0;
   }
+  .contact__about-text {
+    font-size: 17px;
+  }
+  .footer {
+    padding-bottom: 40px;
+  }
+  .contact__about-title {
+    font-size: 35px;
+    line-height: 48px;
+  }
+  .contact__about-text {
+    font-size: 15px;
+  }
+  .contact__title {
+    font-size: 21px;
+  }
+  .contact__text {
+    font-size: 13px;
+    margin-bottom: 28px;
+  }
+  .contact__input {
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+  .contact__submit {
+    font-size: 12px;
+    padding: 9px 33px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -166,30 +194,23 @@
   .news-block__content-text {
     margin-bottom: 10px;
   }
-  .tag-btn {
-    font-size: 14px;
-    padding: 4px 14px;
-  }
   .news-block__content__date {
     font-size: 12px;
   }
   .contact {
     padding: 40px 0;
   }
-  .contact__input {
-    font-size: 12px;
-    padding: 11px 20px;
-  }
-  .contact__submit {
-    font-size: 12px;
-    padding: 13px 33px;
-  }
-  .contact__text {
-    font-size: 15px;
-    margin-bottom: 28px;
+  .contact__about-title {
+    margin-bottom: 5px;
   }
   .contact__title {
-    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .contact__about-text {
+    max-width: 768px;
+  }
+  .contact__text {
+    margin-bottom: 20px;
   }
 }
 
@@ -204,7 +225,6 @@
     margin-right: 20px;
     margin-left: auto;
   }
-  /* Hero */
   .hero {
     min-height: 515px;
     background-size: 549px 524px;
@@ -265,6 +285,23 @@
   }
   .useful-articles {
     padding-bottom: 0;
+  }
+  .contact__text {
+    font-size: 12px;
+  }
+  .contact__about-title {
+    font-size: 30px;
+    line-height: 44px;
+  }
+  .contact__about-text {
+    font-size: 13px;
+    max-width: 260px;
+  }
+  .contact__input {
+    padding: 6px 20px;
+  }
+  .contact__submit {
+    padding: 7px 33px;
   }
 }
 
