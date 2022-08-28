@@ -179,6 +179,10 @@ button {
   text-align: center;
 }
 
+.pt-60 {
+  padding-top: 60px;
+}
+
 /* ---------- CONTAINER ---------- */
 
 .container {
